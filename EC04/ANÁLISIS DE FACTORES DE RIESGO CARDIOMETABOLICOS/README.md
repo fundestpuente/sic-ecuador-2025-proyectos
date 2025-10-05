@@ -1,17 +1,17 @@
 # 📌 <NOMBRE_DEL_PROYECTO>
 
 **Curso:** Samsung Innovation Campus – Módulo de Python (Ecuador 2025)  
-**Seccion:** <ecuador03 | ecuador04>  
-**Carpeta:** `/<ecuador03 o ecuador04>/<proyecto-xx-nombre>`
+**Seccion:** <ecuador04>  
+**Carpeta:** `/EC04/<proyecto-xx-nombre>`
 
 ---
 
 ## 👥 Integrantes del Grupo
-- Nombre Apellido 
-- Nombre Apellido 
-- Nombre Apellido 
-- Nombre Apellido 
-
+- Angie Alfonso
+- Christian Zavala
+- Fernando Alvarez 
+- Fiorella Quijana
+- Joseph Carrera
 ---
 
 ## 📝 Descripción del Proyecto
