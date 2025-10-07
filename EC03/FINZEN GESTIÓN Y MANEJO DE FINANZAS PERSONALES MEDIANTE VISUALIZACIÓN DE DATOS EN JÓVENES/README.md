@@ -15,7 +15,7 @@
 ---
 
 ## 📝 Descripción del Proyecto
-Basandonos en datos del banco central del ecuador, el 43% de jovenes entre 18 y 25 años no cuentan con responsabilidad financiera debido a una exclusion financiera en jovenes menores a 25 años no cuentan con la educacion apropiada para poder tener un adecuado manejo de sus finanzas. El objetivo de nuestro poryecto es buscar promover la educacion financiera basandonos en la recoleccion de datos para poder proponer soluciones e incentivar la consciencia financiera entre adultos jovenes. Los beneficiarios a nuestro proyecto serian a adultos jovenes de entre 18 a 25 años y cercanos a dicha edad.
+Basandonos en datos del banco central del ecuador, el 43% de jovenes entre 18 y 25 años no cuentan con responsabilidad financiera debido a una exclusion financiera, los jovenes menores a 25 años no cuentan con la educacion apropiada para poder tener un adecuado manejo de sus finanzas. El objetivo de nuestro proyecto es buscar promover la educacion financiera basandonos en la recoleccion de datos para poder proponer soluciones e incentivar la consciencia financiera entre adultos jovenes. Los beneficiarios a nuestro proyecto serian a adultos jovenes de entre 18 a 25 años y cercanos a dicha edad.
 ---
 
 ## ⚙️ Instrucciones de Instalación y Ejecución
@@ -32,7 +32,7 @@ Basandonos en datos del banco central del ecuador, el 43% de jovenes entre 18 y 
    ```
 
 2. Abrir carpeta
-   /EC03/FINZEN GESTIÓN Y MANEJO DE FINANZAS PERSONALES MEDIANTE VISUALIZACIÓN DE DATOS EN JÓVENES
+   SIC25-FINZEN-GESTION-Y-MANEJO-DE-FINANZAS-PERSONALES-MEDIANTE-VISUALIZACION-DE-DATOS-EN-JOVENES
 
 3. Ejecutar la aplicación:
    a. Abrir archivo main.ipynb.
@@ -45,35 +45,29 @@ Basandonos en datos del banco central del ecuador, el 43% de jovenes entre 18 y 
 ```
 FINZEN GESTIÓN Y MANEJO DE FINANZAS PERSONALES MEDIANTE VISUALIZACIÓN DE DATOS EN JÓVENES/
 │
-├── main.ipynb               # Punto de entrada principal
-├── README.md             # Este archivo (personalizar)
-├── requirements.txt      # Dependencias del proyecto
-├── src/                  # Código fuente del proyecto
-│   ├── Graficas.py
+├── main.ipynb            # Programa principal donde se encuentra la ejecucion de las distintas etapas del proyecto
+├── README.md             # Aqui se encuentra la descripcion e informacion relacionada con el proyecto
+├── src/                  # Aqui se encuentran los modulos (funciones) que se desarrollaron para el funcionamiento de main.ipynb
+│   ├── Graficas.py               
+│   ├── ExportarResultados.py
 │   ├── ObtencionDatos.py
-    └── Procesamiento datos.py
-├── data/                 # Datos de ejemplo 
-├── docs/                 # Documentación adicional (opcional)
+│   └── Procesamiento datos.py
+├── out/        # Se diseñaron carpetas donde se guardarian los datos procesados en el main.ipynb
+│   ├── csv/                  
+│   |    ├── equilibrio.csv
+│   |    ├── estadiosticas.csv
+│   |    ├── finanzas.csv
+│   |    └── tipo_ingreso.csv
+│   └── analisis_finzen.csv
+├── data/                 # Datos recolectados por encuesta
+│     └── finzen.csv
 └── .gitignore
 ```
 
-> Nota: Ajusta la estructura según las necesidades de tu proyecto, pero mantén orden y claridad.
-
----
 
 ## ✅ Herramientas Implementadas
-- **Lenguaje:** Python 3.x
-- **Librerías principales:** `<pandas, numpy, flask, fastapi, matplotlib, etc.>` (lista → reemplazar)
-- **Otras herramientas:** `<Docker, GitHub Actions (CI), pytest, etc.>` (lista → reemplazar)
-
+- **Lenguaje:** Python 3.12
+- **Librerías principales:** `<pandas, numpy, matplotlib, seaborn>` 
+- **Otras herramientas:** `<Visual Studio Code, GitHub>`
 ---
 
-## 💡 Buenas prácticas y reglas internas
-- Trabajar únicamente dentro de la carpeta asignada al grupo.
-- Commits claros: `feat: agrega función X`, `fix: corrige bug en Y`, `docs: actualiza README`.
-- Mantener el README del proyecto actualizado con cambios importantes.
-
-
-> **IMPORTANTE:** Este README es una plantilla base. Cada grupo debe editarlo y completarlo con la información real de su proyecto antes de la entrega.
-
-¡Éxitos con tu proyecto! 🚀

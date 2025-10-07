@@ -10,36 +10,40 @@ def obtener_datos(nombre_archivo):
   df = pd.read_csv(nombre_archivo, sep=';')
 
 
-  def nuevo_dic(data):
+  def nuevo_dic(data): # Se declara la funcion para convertir los strings en diccionarios
+      
+      if pd.isna(data): # si el cambo llegase a estar vacio se retorna un diccionario con un valor por defecto
+          return {'sin registro': 0}
       data_str = str(data).strip()
+      # Limpiar caracteres no deseados
       if "$" in data_str :
         data_str = data_str.replace("$", "")
       if "%" in data_str :
         data_str = data_str.replace("%", "")
       dic = {}
 
-      # Si NO hay comas, procesar como un solo elemento
+      #Si no hay espacios, se trata como un solo elemento
       if " " not in data_str:
           if not data_str:
-              return {"0": "0"}
+              return {"0": 0}
 
           if ":" in data_str:
               clave, valor = data_str.split(":", 1)
               clave = clave.strip()
               valor_str = valor.strip()
-              # Attempt to convert to int, handle errors by keeping as string
+              # Intenta convertir el valor string a un float
               try:
-                  valor = int(valor_str)
+                  valor = float(valor_str)
               except ValueError:
                   valor = valor_str
           else:
               clave = "0"
-              valor = data_str # Use the element as value
+              valor = data_str #Usar el elemento como valor
 
           dic[clave] = valor
           return dic
 
-      # Si HAY comas, procesar múltiples elementos
+      # En caso de que haya espacios, se trata como multiples elementos
       else:
           elementos = data_str.split(" ")
 
@@ -52,9 +56,9 @@ def obtener_datos(nombre_archivo):
                   clave, valor = elemento.split(":", 1)
                   clave = clave.strip()
                   valor_str = valor.strip()
-                  # Attempt to convert to int, handle errors by keeping as string
+                  # Intenta convertir el valor string a un float
                   try:
-                      valor = int(valor_str)
+                      valor = float(valor_str)
                   except ValueError:
                       valor = valor_str
               else:
@@ -65,7 +69,7 @@ def obtener_datos(nombre_archivo):
 
           return dic
 
-  # Rename columns
+  # Renombramiento de las columnas para facilitar su manejo
   df.rename(columns={
       "Id": "id",
       "Nombre": "nombre",
@@ -95,7 +99,7 @@ def obtener_datos(nombre_archivo):
       "gastos_secundarios"
   ]
 
-  # Apply nuevo_dic function to specified columns
+  # Aplicando la funcion nuevo_dic a las columnas especificadas
   for col in columnas_con_diccionarios:
       df[col] = df[col].apply(nuevo_dic)
 

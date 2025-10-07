@@ -23,3 +23,13 @@ Vanessa,Morales,1850992353,24,Femenino,{'Emprendimiento': 50},{'Comida': 25},{'R
 Nahomy ,Lema,1729831568,21,Femenino,{'Padres': 80},"{'Comida': 40, 'Pasajes': 20}",{'Helado': 2},10.0,8.0,21-23,62
 Anthony ,Chicaiza ,1755976097,22,Masculino,{'Trabajo': 120},"{'Pasaje': 30, 'Comida': 40, 'Universidad': 15, 'mascota': 10}","{'Compras': 20, 'Golosinas': 8}",0.0,0.0,21-23,123
 Sasha ,Pluas,1725871527,27,Femenino,{'Mensualidad': 100},"{'Pasajes': 9, 'Comida': 36, 'Renta': 54}",{'Restaurante': 5},0.0,0.0,27+,104
+Juliette ,Constante,1004820054,19,Femenino,{'Mensualidad': 40},{'Pasajes': 35},{'Dulces': 7},0.0,0.0,18-20,42
+Nicolas,Vasquez ,1727159285,22,Masculino,{'Emprendimiento': 50},"{'pasajes': 10, 'Comida': 30}",{'Ropa': 5},30.0,15.0,21-23,45
+Doménica,Pinto,1004421937,20,Femenino,{'Mensualidad': 25},"{'Pasajes': 10, 'Comida': 8}",{'Libros': 20},5.0,1.25,18-20,38
+Jose David ,Díaz Amaguaña ,1755552731,21,Masculino,{'Emprendimiento': 60},"{'Pasaje': 20, 'comida': 10, 'universidad': 10}","{'Ropa': 20, 'tecnología': 50}",20.0,12.0,21-23,110
+Daniela ,Käslin ,1752930360,20,Femenino,{'Mensuidad': 80},"{'Comida': 50, 'Pasajes': 10}",{'Salidas': 10},10.0,8.0,18-20,70
+Daniela ,Cuasquer ,1005331168,19,Femenino,{'Mensualidad': 200},"{'Vivienda': 80, 'Comida': 70, 'Pasajes': 22}",{'sin registro': 0},0.0,0.0,18-20,172
+domenica,castro,1753379666,18,Femenino,{'familia': 20},{'Familia': 10},{'Familia': 40},25.0,5.0,18-20,50
+Paola ,Guitarra ,1003871132,21,Femenino,"{'trabajo': 15, 'familia': 75}","{'Universidad': 36, 'Trabajo': 25}","{'pareja': 10, 'dulces': 5}",0.0,0.0,21-23,76
+Fernanda,Cisneros ,1727762070,20,Femenino,{'Familia': 40},{'Universidad': 30},{'Comida': 2},0.0,0.0,18-20,32
+Karen,Vera,1728993677,20,Femenino,{'Mensualidad': 165},"{'Comida': 80, 'Vivienda': 65, 'Lavandería': 7, 'Otros': 13}",{'Medicinas': 25},5.0,8.25,18-20,190

@@ -5,12 +5,19 @@ import pandas as pd
 def procesar_datos(df_ingresado):
     
     """
-    Procesa el DataFrame para limpiar valores nulos (NaN), descartar columnas,
-    realizar conversiones binarias ('Si'/'No' a 1/0) y eliminar duplicados.
+    Procesa el DataFrame limpiando datos, eliminando columnas con informacion 
+    innecesaria y rellena campos vacios por valores que se pueden utilizar
+    para el analisis de los datos.
+
+    Args:
+        df_ingresado (pd.DataFrame): DataFrame raw.
+
+    Returns:
+        dataframe: df.
     """
     df = df_ingresado.copy()
 
-    # 1. Descartar Columnas
+    # 1. Se descartan columnasDescartar Columnas
     columnas_a_descartar = [
         "Start time",
         "Completion time",
