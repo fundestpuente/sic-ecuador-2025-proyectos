@@ -1,7 +1,7 @@
-# 📌 ANALISIS DE LA DEMANDA ELECTRICA Y EFETOS DE LOS CORTES ENERGETICOS EN ECUADOR 2024-2025
+# 📌 ANALISIS DE LA DEMANDA ELECTRICA Y EFECTOS DE LOS CORTES ENERGETICOS EN ECUADOR 2024-2025
 
 **Curso:** Samsung Innovation Campus – Módulo de Python (Ecuador 2025)  
-**Seccion:** <EC04>  
+**Seccion:** EC04  
 **Carpeta:** `/<EC04>/<ANÁLISIS DE LA DEMANDA ELÉCTRICA Y EFECTOS DE LOS CORTES ENERGÉTICOS EN ECUADOR>`
 
 ---
@@ -49,7 +49,7 @@ Resuelve la necesidad de comprender el impacto de la crisis, optimizar recursos 
 
 ## 📂 Estructura del Código.
 ```
-proyecto-01-crisis-energetica/
+EC04/ANÁLISIS DE LA DEMANDA ELÉCTRICA Y EFECTOS DE LOS CORTES ENERGÉTICOS EN ECUADOR/Proyecto
 │
 ├── main.py               # Punto de entrada principal
 ├── README.md             # Este archivo
@@ -61,7 +61,6 @@ proyecto-01-crisis-energetica/
 │   ├── visualization/
 │   └── models/
 ├── data/                 # Datos de ejemplo 
-├── docs/                 # Documentación adicional
 └── .gitignore
 ```
 
