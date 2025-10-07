@@ -70,14 +70,29 @@ def main():
         
         print("\n🔗 Ejecutando análisis de correlaciones...")
         correlation_analysis = analyzer.analyze_correlations()
+        # Resumen estadístico (Punto 3)
+        print("\n📐 Ejecutando resumen estadístico (Punto 3)...")
+        statistical_summary = analyzer.analyze_statistical_summary()
+        print("✅ Resumen estadístico generado")
         
         # 5. Generar visualizaciones integradas
         print("\n📈 Generando visualizaciones integradas...")
         dashboard = IntegratedDashboard()
         
+        # Asegurar carpeta de exportaciones (usar la ruta del DataLoader si existe)
+        # Nota: en DataLoader se usa 'data/exports' en minúsculas
+        export_dir = None
+        try:
+            export_dir = loader.exports_path  # viene de DataLoader
+        except Exception:
+            export_dir = os.path.join('data', 'exports')
+        os.makedirs(export_dir, exist_ok=True)
+
+        dashboard_path = os.path.join(export_dir, 'dashboard_integrado.png')
+
         # Dashboard integrado principal
         print("🎨 Creando dashboard integrado...")
-        success = dashboard.create_integrated_dashboard(analyzer, 'Data/exports/dashboard_integrado.png')
+        success = dashboard.create_integrated_dashboard(analyzer, dashboard_path)
         
         if success:
             print("✅ Dashboard integrado generado exitosamente")
@@ -98,16 +113,18 @@ def main():
             "analisis_expandido": {
                 "balance_energetico": balance_analysis,
                 "facturacion_detallada": facturacion_analysis,
-                "correlaciones": correlation_analysis
+                "correlaciones": correlation_analysis,
+                "resumen_estadistico": statistical_summary
             }
         }
         
-        # Guardar resultados
-        with open('Data/exports/resultados_integrados.json', 'w', encoding='utf-8') as f:
+        # Guardar resultados (JSON)
+        resultados_path = os.path.join(export_dir, 'resultados_integrados.json')
+        with open(resultados_path, 'w', encoding='utf-8') as f:
             json.dump(resultados_integrados, f, indent=2, ensure_ascii=False, default=str)
         
-        print("✅ Datos integrados guardados en: Data/exports/resultados_integrados.json")
-        print("✅ Dashboard integrado guardado en: Data/exports/dashboard_integrado.png")
+        print(f"✅ Datos integrados guardados en: {resultados_path}")
+        print(f"✅ Dashboard integrado guardado en: {dashboard_path}")
         
         print("\n🎉 ANÁLISIS INTEGRADO COMPLETADO EXITOSAMENTE!")
         print("📁 Revisa los archivos generados en Data/exports/")
