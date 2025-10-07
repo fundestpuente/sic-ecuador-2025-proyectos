@@ -323,6 +323,114 @@ class ExtendedEnergyAnalyzer(EnergyAnalyzer):
         self.correlation_analysis = correlations
         print("[OK] Análisis de correlaciones completado")
         return correlations
+
+    # RESUMEN ESTADÍSTICO
+    def analyze_statistical_summary(self) -> Dict[str, Any]:
+        """Genera un resumen estadístico simple segmentado por etapas (antes, durante, después)."""
+        from datetime import datetime as _dt
+        import pandas as _pd
+
+        summary = {
+            "timestamp": _dt.now().isoformat(),
+            "base": None,
+            "tiene_etapas": False,
+            "columnas_analizadas": [],
+            "medias_por_etapa": {},
+            "variaciones_porcentaje": {},
+            "matriz_correlacion": {},
+            "nota": ""
+        }
+
+        # Elegir DataFrame base
+        df = None
+        if hasattr(self, 'facturacion_data') and self.facturacion_data is not None and not self.facturacion_data.empty:
+            df = self.facturacion_data.copy()
+            summary["base"] = "facturacion_data"
+        elif hasattr(self, 'balance_data') and self.balance_data is not None and not self.balance_data.empty:
+            df = self.balance_data.copy()
+            summary["base"] = "balance_data"
+        else:
+            summary["nota"] = "No hay datos para análisis estadístico"
+            self.statistical_summary = summary
+            return summary
+
+        # Clasificación por etapas
+        if 'fecha' in df.columns:
+            df['fecha'] = _pd.to_datetime(df['fecha'], errors='coerce')
+
+            def _etapa(fecha):
+                if _pd.isna(fecha):
+                    return None
+                if fecha < _pd.Timestamp('2024-09-23'):
+                    return 'antes'
+                if _pd.Timestamp('2024-09-23') <= fecha <= _pd.Timestamp('2024-12-20'):
+                    return 'durante'
+                return 'despues'
+
+            df['etapa'] = df['fecha'].apply(_etapa)
+            df = df[~df['etapa'].isna()]
+            if 'etapa' in df.columns and df['etapa'].nunique() > 0:
+                summary['tiene_etapas'] = True
+        else:
+            summary['nota'] = "No hay columna 'fecha'; no se segmentan etapas"
+
+        # Columnas numéricas
+        for col in df.columns:
+            if df[col].dtype == object:
+                try:
+                    df[col] = _pd.to_numeric(df[col].str.replace(',', ''), errors='ignore')
+                except Exception:
+                    pass
+
+        numeric_cols = [c for c in df.columns if c not in ('fecha', 'etapa') and _pd.api.types.is_numeric_dtype(df[c])]
+        if len(numeric_cols) > 30:
+            numeric_cols = numeric_cols[:30]
+            summary['nota'] += " | Se limitaron columnas a primeras 30 numéricas"
+        summary['columnas_analizadas'] = numeric_cols
+
+        if not numeric_cols:
+            summary['nota'] += " | No se encontraron columnas numéricas"
+            self.statistical_summary = summary
+            return summary
+
+        # Medias
+        if summary['tiene_etapas']:
+            medias = df.groupby('etapa')[numeric_cols].mean().round(3)
+            summary['medias_por_etapa'] = medias.to_dict()
+        else:
+            summary['medias_por_etapa'] = {"global": df[numeric_cols].mean().round(3).to_dict()}
+
+        # Variaciones
+        variaciones = {}
+        if summary['tiene_etapas'] and len(set(df['etapa'])) >= 2:
+            try:
+                medias_local = df.groupby('etapa')[numeric_cols].mean()
+                for col in numeric_cols:
+                    cambios = {}
+                    if 'antes' in medias_local.index and 'durante' in medias_local.index:
+                        base = medias_local.loc['antes', col]
+                        if base and base != 0:
+                            cambios['durante_vs_antes_pct'] = round((medias_local.loc['durante', col] - base) / base * 100, 2)
+                    if 'durante' in medias_local.index and 'despues' in medias_local.index:
+                        base2 = medias_local.loc['durante', col]
+                        if base2 and base2 != 0:
+                            cambios['despues_vs_durante_pct'] = round((medias_local.loc['despues', col] - base2) / base2 * 100, 2)
+                    if cambios:
+                        variaciones[col] = cambios
+            except Exception as e:  # pragma: no cover
+                summary['nota'] += f" | Error en variaciones: {e}"
+        summary['variaciones_porcentaje'] = variaciones
+
+        # Correlación
+        try:
+            corr = df[numeric_cols].corr().round(3)
+            summary['matriz_correlacion'] = corr.to_dict()
+        except Exception as e:
+            summary['nota'] += f" | Error en correlación: {e}"
+
+        self.statistical_summary = summary
+        print("[OK] Resumen estadístico generado")
+        return summary
     
     def _get_region_code(self, region_name: str) -> str:
         """Mapea nombres de regiones a códigos"""
