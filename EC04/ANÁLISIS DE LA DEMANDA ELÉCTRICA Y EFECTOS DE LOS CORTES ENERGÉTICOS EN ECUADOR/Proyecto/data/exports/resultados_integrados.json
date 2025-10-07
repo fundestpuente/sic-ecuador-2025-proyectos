@@ -1,0 +1,562 @@
+{
+  "analisis_original": {
+    "antes_cortes": {
+      "periodo": "antes_cortes",
+      "fecha_inicio": "2023-09-01",
+      "fecha_fin": "2024-08-31",
+      "timestamp": "2025-10-07T02:11:39.194407",
+      "total_registros_antes_cortes": 247738,
+      "consumo_total_mwh_antes_cortes": 62816.68000000001,
+      "facturacion_total_usd_antes_cortes": 51023.92,
+      "total_clientes_antes_cortes": 632194,
+      "balance_energetico": {
+        "registros_balance_antes_cortes": 21,
+        "nota": "Análisis de balance energético pendiente de implementar"
+      }
+    },
+    "durante_cortes": {
+      "periodo": "durante_cortes",
+      "fecha_inicio": "2024-09-01",
+      "fecha_fin": "2024-12-31",
+      "timestamp": "2025-10-07T02:11:39.383276",
+      "cortes_stats": {
+        "total_cortes": 597,
+        "duracion_total_horas": 2820.0,
+        "duracion_promedio_horas": 4.723618090452261,
+        "regiones_afectadas": 11,
+        "cantones_afectados": 91,
+        "region_mas_afectada": "BOLIVAR"
+      },
+      "total_registros_durante_cortes": 1564,
+      "consumo_total_mwh_durante_cortes": 64274.68000000001,
+      "facturacion_total_usd_durante_cortes": 1830266.92,
+      "total_clientes_durante_cortes": 3193652
+    },
+    "despues_cortes": {
+      "periodo": "despues_cortes",
+      "fecha_inicio": "2025-01-01",
+      "fecha_fin": "2025-12-31",
+      "timestamp": "2025-10-07T02:11:39.416908",
+      "total_registros_despues_cortes": 1264,
+      "consumo_total_mwh_despues_cortes": 3185238.7397600003,
+      "facturacion_total_usd_despues_cortes": 537277279.950006,
+      "total_clientes_despues_cortes": 19074900
+    },
+    "impacto_regional": {
+      "timestamp": "2025-10-07T02:11:39.446874",
+      "regiones": {
+        "BOLIVAR": {
+          "total_cortes": 144,
+          "duracion_total_horas": 824.0,
+          "duracion_promedio_horas": 5.72,
+          "primer_corte": "2024-09-18 00:00:00",
+          "ultimo_corte": "2024-10-27 00:00:00"
+        },
+        "EL ORO": {
+          "total_cortes": 94,
+          "duracion_total_horas": 379.0,
+          "duracion_promedio_horas": 4.03,
+          "primer_corte": "2024-09-18 00:00:00",
+          "ultimo_corte": "2024-10-25 00:00:00"
+        },
+        "ESMERALDAS": {
+          "total_cortes": 30,
+          "duracion_total_horas": 114.0,
+          "duracion_promedio_horas": 3.8,
+          "primer_corte": "2024-09-18 00:00:00",
+          "ultimo_corte": "2024-09-19 00:00:00"
+        },
+        "GUAYAQUIL": {
+          "total_cortes": 39,
+          "duracion_total_horas": 126.0,
+          "duracion_promedio_horas": 3.23,
+          "primer_corte": "2024-09-18 00:00:00",
+          "ultimo_corte": "2024-09-19 00:00:00"
+        },
+        "GUAYAS/LOS RÍOS": {
+          "total_cortes": 78,
+          "duracion_total_horas": 270.0,
+          "duracion_promedio_horas": 3.46,
+          "primer_corte": "2024-03-10 00:00:00",
+          "ultimo_corte": "2024-09-19 00:00:00"
+        },
+        "LOS RÍOS": {
+          "total_cortes": 30,
+          "duracion_total_horas": 104.0,
+          "duracion_promedio_horas": 3.47,
+          "primer_corte": "2024-03-10 00:00:00",
+          "ultimo_corte": "2024-09-19 00:00:00"
+        },
+        "MANABÍ": {
+          "total_cortes": 25,
+          "duracion_total_horas": 86.0,
+          "duracion_promedio_horas": 3.44,
+          "primer_corte": "2024-09-18 00:00:00",
+          "ultimo_corte": "2024-09-19 00:00:00"
+        },
+        "MILAGRO": {
+          "total_cortes": 9,
+          "duracion_total_horas": 25.0,
+          "duracion_promedio_horas": 2.78,
+          "primer_corte": "2024-09-18 00:00:00",
+          "ultimo_corte": "2024-09-19 00:00:00"
+        },
+        "SANTA ELENA": {
+          "total_cortes": 11,
+          "duracion_total_horas": 41.0,
+          "duracion_promedio_horas": 3.73,
+          "primer_corte": "2024-09-19 00:00:00",
+          "ultimo_corte": "2024-09-19 00:00:00"
+        },
+        "SANTO DOMINGO": {
+          "total_cortes": 12,
+          "duracion_total_horas": 48.0,
+          "duracion_promedio_horas": 4.0,
+          "primer_corte": "2024-09-19 00:00:00",
+          "ultimo_corte": "2024-09-19 00:00:00"
+        },
+        "SUCUMBÍOS": {
+          "total_cortes": 125,
+          "duracion_total_horas": 803.0,
+          "duracion_promedio_horas": 6.42,
+          "primer_corte": "2024-09-18 00:00:00",
+          "ultimo_corte": "2024-10-27 00:00:00"
+        }
+      }
+    },
+    "horarios_criticos": {
+      "timestamp": "2025-10-07T02:11:39.463513",
+      "horarios_criticos": {
+        "00:00": 112,
+        "08:00": 57,
+        "03:00": 49,
+        "05:00": 45,
+        "16:00": 43,
+        "17:00": 40,
+        "22:00": 38,
+        "12:00": 36,
+        "07:00": 27,
+        "04:00": 26
+      },
+      "estadisticas": {
+        "hora_mas_critica": "00:00",
+        "cortes_en_hora_critica": 112,
+        "total_horarios_diferentes": 23
+      }
+    }
+  },
+  "analisis_expandido": {
+    "balance_energetico": {
+      "timestamp": "2025-10-07T02:11:39.466151",
+      "total_registros": 21,
+      "periodos_analizados": {
+        "unknown": {
+          "registros": 21,
+          "fechas": [
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknown"
+          ],
+          "generacion_total": 200331.08176025897,
+          "demanda_total": 194748.90993371408,
+          "balance_promedio": 927.7458680026284
+        }
+      },
+      "capacidad_instalada": {},
+      "generacion_mensual": {},
+      "demanda_nacional": {},
+      "interconexiones": {},
+      "balance_oferta_demanda": {},
+      "resumen_nacional": {
+        "capacidad_instalada_mw": 8958,
+        "renovable_porcentaje": 60.86,
+        "no_renovable_porcentaje": 39.14,
+        "interconexion_colombia_mw": 540,
+        "interconexion_peru_mw": 110
+      }
+    },
+    "facturacion_detallada": {
+      "timestamp": "2025-10-07T02:11:39.468654",
+      "total_registros": 249474,
+      "analisis_por_region": {
+        "BOL": {
+          "total_clientes": 679614.081,
+          "total_mwh": 7777.42918,
+          "total_facturacion_usd": 3573860.0400000005,
+          "consumo_promedio_kwh_cliente": 11.443890580601433,
+          "tarifa_promedio_usd_mwh": 459.5168862726951,
+          "participacion_nacional": {}
+        },
+        "EOR": {
+          "total_clientes": 2619062.15,
+          "total_mwh": 34287.32554,
+          "total_facturacion_usd": 47621462.9,
+          "consumo_promedio_kwh_cliente": 13.091451663336818,
+          "tarifa_promedio_usd_mwh": 1388.8940636225545,
+          "participacion_nacional": {}
+        },
+        "ESM": {
+          "total_clientes": 973590.514,
+          "total_mwh": 655053.6100000001,
+          "total_facturacion_usd": 17562874.99,
+          "consumo_promedio_kwh_cliente": 672.8225065676843,
+          "tarifa_promedio_usd_mwh": 26.811355165266544,
+          "participacion_nacional": {}
+        },
+        "GYE": {
+          "total_clientes": 6585739.302,
+          "total_mwh": 58602.833,
+          "total_facturacion_usd": 185389041.36,
+          "consumo_promedio_kwh_cliente": 8.898444094530603,
+          "tarifa_promedio_usd_mwh": 3163.48258044112,
+          "participacion_nacional": {}
+        },
+        "GLR": {
+          "total_clientes": 3427079.627,
+          "total_mwh": 1802057.59406,
+          "total_facturacion_usd": 98806724.620006,
+          "consumo_promedio_kwh_cliente": 525.8289243887475,
+          "tarifa_promedio_usd_mwh": 54.82994824676852,
+          "participacion_nacional": {}
+        },
+        "LRS": {
+          "total_clientes": 1392063.9260000002,
+          "total_mwh": 496742.95452,
+          "total_facturacion_usd": 16870755.47,
+          "consumo_promedio_kwh_cliente": 356.83918334652685,
+          "tarifa_promedio_usd_mwh": 33.96274736559096,
+          "participacion_nacional": {}
+        },
+        "MAN": {
+          "total_clientes": 3301156.94,
+          "total_mwh": 29336.050700000003,
+          "total_facturacion_usd": 58092968.730000004,
+          "consumo_promedio_kwh_cliente": 8.886596800211505,
+          "tarifa_promedio_usd_mwh": 1980.258669582951,
+          "participacion_nacional": {}
+        },
+        "MLG": {
+          "total_clientes": 1506621.875,
+          "total_mwh": 56430.16735999999,
+          "total_facturacion_usd": 42945743.35999999,
+          "consumo_promedio_kwh_cliente": 37.454764394682634,
+          "tarifa_promedio_usd_mwh": 761.0422823314483,
+          "participacion_nacional": {}
+        },
+        "STE": {
+          "total_clientes": 992169.307,
+          "total_mwh": 38571.126399999994,
+          "total_facturacion_usd": 21648789.790000003,
+          "consumo_promedio_kwh_cliente": 38.875548888552736,
+          "tarifa_promedio_usd_mwh": 561.2693175068905,
+          "participacion_nacional": {}
+        },
+        "STD": {
+          "total_clientes": 2555337.137,
+          "total_mwh": 48815.049000000006,
+          "total_facturacion_usd": 30006627.089999996,
+          "consumo_promedio_kwh_cliente": 19.10317362557863,
+          "tarifa_promedio_usd_mwh": 614.7003373898076,
+          "participacion_nacional": {}
+        },
+        "SUC": {
+          "total_clientes": 1062517.1199999999,
+          "total_mwh": 24718.280000000002,
+          "total_facturacion_usd": 22216628.519999996,
+          "consumo_promedio_kwh_cliente": 23.26388867974194,
+          "tarifa_promedio_usd_mwh": 898.7934645938145,
+          "participacion_nacional": {}
+        }
+      },
+      "analisis_por_categoria": {
+        "General": {
+          "total_clientes": 2861332.878,
+          "total_mwh": 3233296.04497,
+          "total_facturacion_usd": 301511646.06000006,
+          "tarifa_promedio": 93.25209998294406,
+          "consumo_promedio_cliente": 1129.9964676706868
+        },
+        "Alumbrado Público": {
+          "total_clientes": 1248.0,
+          "total_mwh": 10968.43,
+          "total_facturacion_usd": 35975402.56,
+          "tarifa_promedio": 3279.9044676403096,
+          "consumo_promedio_cliente": 8788.80608974359
+        },
+        "Residencial": {
+          "total_clientes": 22232371.101,
+          "total_mwh": 8127.944789999999,
+          "total_facturacion_usd": 207248428.25000602,
+          "tarifa_promedio": 25498.25738297197,
+          "consumo_promedio_cliente": 0.36559055051192485
+        },
+        "nan": {
+          "total_clientes": 0.0,
+          "total_mwh": 0.0,
+          "total_facturacion_usd": 0.0,
+          "tarifa_promedio": 0.0,
+          "consumo_promedio_cliente": 0.0
+        }
+      },
+      "analisis_por_voltaje": {
+        "Baja": {
+          "total_clientes": 19242044.044999998,
+          "total_mwh": 1906857.64232,
+          "total_facturacion_usd": 300377407.490003,
+          "participacion_clientes": 76.67695105016404,
+          "participacion_consumo": 58.62938404156994
+        },
+        "NO APLICA": {
+          "total_clientes": 0.0,
+          "total_mwh": -173.39000000000001,
+          "total_facturacion_usd": 28.320000000000043,
+          "participacion_clientes": 0.0,
+          "participacion_consumo": -0.0053311525062770485
+        },
+        "Media": {
+          "total_clientes": 342461.934,
+          "total_mwh": 723417.3442599998,
+          "total_facturacion_usd": 145751253.29,
+          "participacion_clientes": 1.364664631701944,
+          "participacion_consumo": 22.242621765591927
+        },
+        "Alta": {
+          "total_clientes": 9339.0,
+          "total_mwh": 608547.53018,
+          "total_facturacion_usd": 96799164.58,
+          "participacion_clientes": 0.03721465579139214,
+          "participacion_consumo": 18.7107658498634
+        },
+        "nan": {
+          "total_clientes": 5501107.0,
+          "total_mwh": 13942.0,
+          "total_facturacion_usd": 2543657.0,
+          "participacion_clientes": 21.921169662342635,
+          "participacion_consumo": 0.4286690595911795
+        },
+        "0": {
+          "total_clientes": 0.0,
+          "total_mwh": -198.70700000000002,
+          "total_facturacion_usd": -736033.809997,
+          "participacion_clientes": 0.0,
+          "participacion_consumo": -0.006109564110183941
+        },
+        "No aplica": {
+          "total_clientes": 0.0,
+          "total_mwh": 0.0,
+          "total_facturacion_usd": 0.0,
+          "participacion_clientes": 0.0,
+          "participacion_consumo": 0.0
+        }
+      },
+      "analisis_temporal": {},
+      "comparativo_tarifas": {},
+      "eficiencia_comercial": {},
+      "resumen_nacional": {
+        "total_clientes": 25094951.979,
+        "total_mwh": 3252392.4197600004,
+        "total_facturacion_usd": 544735476.8700061,
+        "tarifa_promedio_nacional": 167.48762343696615,
+        "consumo_promedio_nacional": 129.60345261794774
+      }
+    },
+    "correlaciones": {
+      "timestamp": "2025-10-07T02:11:39.979811",
+      "correlacion_cortes_facturacion": {
+        "BOLIVAR": {
+          "total_cortes": 144,
+          "duracion_total_horas": 824.0,
+          "clientes_afectados": 679614.081,
+          "mwh_perdidos_estimados": 8900.835617111112,
+          "perdida_facturacion_estimada": 4090084.2680000006,
+          "impacto_por_hora": 4963.6945000000005
+        },
+        "LOS RÍOS": {
+          "total_cortes": 30,
+          "duracion_total_horas": 104.0,
+          "clientes_afectados": 1392063.9260000002,
+          "mwh_perdidos_estimados": 71751.76009733333,
+          "perdida_facturacion_estimada": 2436886.901222222,
+          "impacto_por_hora": 23431.60481944444
+        },
+        "SANTO DOMINGO": {
+          "total_cortes": 12,
+          "duracion_total_horas": 48.0,
+          "clientes_afectados": 2555337.137,
+          "mwh_perdidos_estimados": 3254.3366000000005,
+          "perdida_facturacion_estimada": 2000441.8059999996,
+          "impacto_por_hora": 41675.870958333326
+        },
+        "SANTA ELENA": {
+          "total_cortes": 11,
+          "duracion_total_horas": 41.0,
+          "clientes_afectados": 992169.307,
+          "mwh_perdidos_estimados": 2196.411364444444,
+          "perdida_facturacion_estimada": 1232778.3074861113,
+          "impacto_por_hora": 30067.763597222227
+        },
+        "MANABÍ": {
+          "total_cortes": 25,
+          "duracion_total_horas": 86.0,
+          "clientes_afectados": 3301156.94,
+          "mwh_perdidos_estimados": 3504.0282780555563,
+          "perdida_facturacion_estimada": 6938882.376083334,
+          "impacto_por_hora": 80684.67879166667
+        },
+        "SUCUMBÍOS": {
+          "total_cortes": 125,
+          "duracion_total_horas": 803.0,
+          "clientes_afectados": 1062517.1199999999,
+          "mwh_perdidos_estimados": 27567.748388888893,
+          "perdida_facturacion_estimada": 24777712.0855,
+          "impacto_por_hora": 30856.428499999995
+        },
+        "EL ORO": {
+          "total_cortes": 94,
+          "duracion_total_horas": 379.0,
+          "clientes_afectados": 2619062.15,
+          "mwh_perdidos_estimados": 18048.46719397222,
+          "perdida_facturacion_estimada": 25067408.94319444,
+          "impacto_por_hora": 66140.92069444444
+        },
+        "ESMERALDAS": {
+          "total_cortes": 30,
+          "duracion_total_horas": 114.0,
+          "clientes_afectados": 973590.514,
+          "mwh_perdidos_estimados": 103716.82158333334,
+          "perdida_facturacion_estimada": 2780788.5400833334,
+          "impacto_por_hora": 24392.88193055555
+        },
+        "MILAGRO": {
+          "total_cortes": 9,
+          "duracion_total_horas": 25.0,
+          "clientes_afectados": 1506621.875,
+          "mwh_perdidos_estimados": 1959.380811111111,
+          "perdida_facturacion_estimada": 1491171.6444444442,
+          "impacto_por_hora": 59646.86577777777
+        },
+        "GUAYAS/LOS RÍOS": {
+          "total_cortes": 78,
+          "duracion_total_horas": 270.0,
+          "clientes_afectados": 3427079.627,
+          "mwh_perdidos_estimados": 675771.5977725,
+          "perdida_facturacion_estimada": 37052521.73250225,
+          "impacto_por_hora": 137231.56197223056
+        },
+        "GUAYAQUIL": {
+          "total_cortes": 39,
+          "duracion_total_horas": 126.0,
+          "clientes_afectados": 6585739.302,
+          "mwh_perdidos_estimados": 10255.495775,
+          "perdida_facturacion_estimada": 32443082.238,
+          "impacto_por_hora": 257484.7796666667
+        }
+      },
+      "correlacion_balance_demanda": {},
+      "impacto_cortes_regionales": {},
+      "patron_temporal_integrado": {
+        "periodo_pre_cortes": {
+          "demanda_estimada": "Alta estabilidad",
+          "facturacion": "Crecimiento normal",
+          "balance": "Equilibrio"
+        },
+        "periodo_cortes": {
+          "demanda_estimada": "Reducción forzada",
+          "facturacion": "Impacto negativo",
+          "balance": "Desbalance por restricción"
+        },
+        "periodo_post_cortes": {
+          "demanda_estimada": "Recuperación",
+          "facturacion": "Normalización",
+          "balance": "Reestablecimiento"
+        }
+      },
+      "eficiencia_energetica": {
+        "BOL": {
+          "consumo_per_capita": 11.443890580601433,
+          "intensidad_cortes": 144,
+          "vulnerabilidad": 21.188495651549044,
+          "resilencia_score": 0
+        },
+        "EOR": {
+          "consumo_per_capita": 13.091451663336816,
+          "intensidad_cortes": 94,
+          "vulnerabilidad": 3.589070996272463,
+          "resilencia_score": 6
+        },
+        "ESM": {
+          "consumo_per_capita": 672.8225065676843,
+          "intensidad_cortes": 30,
+          "vulnerabilidad": 3.08137759854961,
+          "resilencia_score": 70
+        },
+        "GYE": {
+          "consumo_per_capita": 8.898444094530603,
+          "intensidad_cortes": 39,
+          "vulnerabilidad": 0.59218863990192,
+          "resilencia_score": 61
+        },
+        "GLR": {
+          "consumo_per_capita": 525.8289243887475,
+          "intensidad_cortes": 78,
+          "vulnerabilidad": 2.2759903033907536,
+          "resilencia_score": 22
+        },
+        "LRS": {
+          "consumo_per_capita": 356.8391833465268,
+          "intensidad_cortes": 30,
+          "vulnerabilidad": 2.1550734445222592,
+          "resilencia_score": 70
+        },
+        "MAN": {
+          "consumo_per_capita": 8.886596800211505,
+          "intensidad_cortes": 25,
+          "vulnerabilidad": 0.7573102537803005,
+          "resilencia_score": 75
+        },
+        "MLG": {
+          "consumo_per_capita": 37.454764394682634,
+          "intensidad_cortes": 9,
+          "vulnerabilidad": 0.5973628917341984,
+          "resilencia_score": 91
+        },
+        "STE": {
+          "consumo_per_capita": 38.87554888855274,
+          "intensidad_cortes": 11,
+          "vulnerabilidad": 1.1086817463906893,
+          "resilencia_score": 89
+        },
+        "STD": {
+          "consumo_per_capita": 19.103173625578627,
+          "intensidad_cortes": 12,
+          "vulnerabilidad": 0.4696053536829258,
+          "resilencia_score": 88
+        },
+        "SUC": {
+          "consumo_per_capita": 23.263888679741935,
+          "intensidad_cortes": 125,
+          "vulnerabilidad": 11.764516321393486,
+          "resilencia_score": 0
+        }
+      }
+    }
+  }
+}
