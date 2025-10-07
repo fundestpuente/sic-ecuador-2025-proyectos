@@ -1,0 +1,159 @@
+Mes-Año;Categoria;Nivel Voltaje;Grupo de consumo;Tipo Consumo;Tipo Tarifa;Tarifa SISDAT;Clientes_BOL;MWh_BOL;FACT_BOL;Clientes_EOR;MWh_EOR;FACT_EOR;Clientes_ESM;MWh_ESM;FACT_ESM;Clientes_GYE;MWh_GYE;FACT_GYE;Clientes_GLR;MWh_GLR;FACT_GLR;Clientes_LRS;MWh_LRS;FACT_LRS;Clientes_MAN;MWh_MAN;FACT_MAN;Clientes_MLG;MWh_MLG;FACT_MLG;Clientes_STE;MWh_STE;FACT_STE;Clientes_STD;MWh_STD;FACT_STD;Clientes_SUC;MWh_SUC;FACT_SUC
+may-25;Alumbrado Público;0;4 - Alumbrado Público;No Público;Alumbrado Público / Refacturaciones y Reliquidaciones;REFACTAL;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;Alumbrado Público;0;4 - Alumbrado Público;Público;Alumbrado Público / Refacturaciones y Reliquidaciones;REFACTAL;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;368,96
+may-25;Alumbrado Público;Baja;4 - Alumbrado Público;Público;Alumbrado Público;BTAPCD01;1;1751,56;133327,39;1;8686,44;1066357,12;1;4389,3;204238,46;1;14880,05;1907826,7;1;8603,32;1933621,46;1;2809,6;356653,15;1;11068,6;1030149,55;1;4208;653399,77;1;3206,16;731169,9;1;6732,53;917896,3;1;3564,35;312381,83
+may-25;General;0;2 -  Comercial;No Público;Comercial / Refacturaciones y Reliquidaciones;REFACTCO;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;0;2 -  Comercial;Público;Comercial / Refacturaciones y Reliquidaciones;REFACTCO;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;0;3 - Industrial;No Público;Industrial / Refacturaciones y Reliquidaciones;REFACTIN;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;0;3 - Industrial;Público;Industrial / Refacturaciones y Reliquidaciones;REFACTIN;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;0;5 - Otros;No Público;Otros / Refacturaciones y Reliquidaciones;REFACTOT;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;0;5 - Otros;Público;Otros / Refacturaciones y Reliquidaciones;REFACTOT;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Alta;2 -  Comercial;No Público;Comercial con Demanda Horaria - AV1;ATCGCD09;0;0;0;2;1175,27;118109,8;0;0;0;7;4374,05;394396,23;6;4230,24;426850,08;1;496,91;49725,88;0;0;0;0;0;0;0;0;0;1;553;53654,56;0;0;0
+may-25;General;Alta;2 -  Comercial;Público;Comercial con Demanda Horaria - AV1;ATCGCD09;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Alta;3 - Industrial;No Público;Industrial con Demanda Horaria Diferenciada - AV1;ATCGCD07;0;0;0;2;805,49;73550,55;0;0;0;36;73316,45;6001196,93;30;38772,59;3556924,06;0;0;0;4;4681,15;422866,46;12;21746,74;1981061,74;0;0;0;2;2724,9;249646,93;1;3341,7;302414,71
+may-25;General;Alta;3 - Industrial;No Público;Industrial con Demanda Horaria Diferenciada - AV2;EATCGCD1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;22335,66;2100370,44;0;0;0;0;0;0;0;0;0
+may-25;General;Alta;3 - Industrial;Público;Industrial con Demanda Horaria Diferenciada - AV1;ATCGCD07;0;0;0;0;0;0;2;10944,86;1092110,76;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;2136,93;192369,8;0;0;0;0;0;0
+may-25;General;Alta;3 - Industrial;Público;Industrial con Demanda Horaria Diferenciada - AV2;EATCGCD1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;30609,61;2710271,34
+may-25;General;Alta;5 - Otros;No Público;Abonados Especiales con Demanda Horaria - AV1;ATCGCD03;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0,8;449,36;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Alta;5 - Otros;No Público;Autoconsumo con Demanda Horaria - AV1;ATCGCD12;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Alta;5 - Otros;No Público;Bombeo de Agua con Demanda Horaria - AV1;ATCGCD04;0;0;0;0;0;0;0;0;0;3;8642,64;457151,98;3;16557,06;995916,92;0;0;0;0;0;0;6;20496,26;1267376,28;1;4624,2;315516,68;0;0;0;0;0;0
+may-25;General;Alta;5 - Otros;No Público;Escenarios Deportivos con Demanda Horaria - AV1;ATCGCD11;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Alta;5 - Otros;No Público;Estación de Carga Rápida con Demanda Horaria Diferenciada - AV1;ATCGCD16;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Alta;5 - Otros;No Público;Otros con Demanda Horaria - AV1;ATCGCD05;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Alta;5 - Otros;No Público;Servicio Comunitario con Demanda Horaria - AV1;ATCGCD08;0;0;0;0;0;0;0;0;0;2;1066,2;67458,78;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Alta;5 - Otros;Público;Abonados Especiales con Demanda Horaria - AV1;ATCGCD03;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Alta;5 - Otros;Público;Asistencia Social con Demanda Horaria - AV1;ATCGCD14;0;0;0;0;0;0;0;0;0;0;0;0;1;470,16;31141,67;0;0;0;1;953,7;61765,79;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Alta;5 - Otros;Público;Autoconsumo con Demanda Horaria - AV1;ATCGCD12;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Alta;5 - Otros;Público;Beneficio Público con Demanda Horaria - AV1;ATCGCD15;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;372,44;26935,84;0;0;0;0;0;0;0;0;0
+may-25;General;Alta;5 - Otros;Público;Bombeo de Agua con Demanda Horaria - AV1;ATCGCD04;0;0;0;0;0;0;0;0;0;2;529,22;55484,69;1;18,04;16992,93;0;0;0;2;502,62;60170,94;0;0;0;1;0;10568,1;0;0;0;0;0;0
+may-25;General;Alta;5 - Otros;Público;Bombeo de Agua para Servicio Público de Agua con Demanda Horaria - AV1;ATCGCD13;0;0;0;0;0;0;1;3213,65;146364,47;1;770,4;32611,26;1;11947,11;497060,55;0;0;0;4;1253,82;57605,73;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Alta;5 - Otros;Público;Entidades Oficiales con Demanda Horaria - AV1;ATCGCD10;0;0;0;2;1519,19;109512,97;1;406,03;29886,98;6;2709,7;165898,98;2;306,06;21881,14;0;0;0;0;0;0;0;0;0;1;374,4;27430,68;2;983,71;73846,84;0;0;0
+may-25;General;Alta;5 - Otros;Público;Escenarios Deportivos con Demanda Horaria - AV1;ATCGCD11;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Alta;5 - Otros;Público;Estación de Carga Rápida con Demanda Horaria Diferenciada - AV1;ATCGCD16;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Alta;5 - Otros;Público;Otros con Demanda Horaria - AV1;ATCGCD05;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Alta;5 - Otros;Público;Servicio Comunitario con Demanda Horaria - AV1;ATCGCD08;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Baja;2 -  Comercial;No Público;Comercial;BTCGSD01;3518;976,3;99552,49;17167;8769,52;893324,63;6606;3083,53;312900,36;65378;34574,65;3529924,69;17797;10689,11;1085601,43;6900;3453,72;350385,99;16141;9230,74;937458,54;10514;4622,67;470117,57;5933;3232,56;329083,77;25949;9929,62;1008942,84;11732;4388,53;444539,45
+may-25;General;Baja;2 -  Comercial;No Público;Comercial con Demanda;BTCGCD01;13;34,92;3653,86;1;0,39;62,96;66;174,38;19612,37;4586;17968,99;1969980,19;1124;5075,06;567535,1;65;204,15;23266,51;112;247,31;28689,15;314;990,49;111074,42;39;137,5;14771,63;26;70,93;7925,47;95;104,38;12738,29
+may-25;General;Baja;2 -  Comercial;No Público;Comercial con Demanda Horaria;BTCGCD31;0;0;0;1;6,39;661,94;0;0;0;43;417,84;41787,81;0;0;0;0;0;0;22;180,52;18783,43;2;4,92;498,37;0;0;0;0;0;0;645;2797,19;303107,23
+may-25;General;Baja;2 -  Comercial;Público;Comercial;BTCGSD01;1;0,02;3,53;17;5,74;601,63;198;122,82;12502,46;52;51,08;5347,61;17;8,09;831,97;20;10,97;1114,44;74;57,79;5880,57;303;70,79;7385,41;1;0,57;56,94;55;24,83;2549,15;17;5,29;536,06
+may-25;General;Baja;2 -  Comercial;Público;Comercial con Demanda;BTCGCD01;0;0;0;0;0;0;0;0;0;5;25,74;3008,1;5;40,36;4874,59;3;13,96;1621,18;0;0;0;2;15,16;1596,64;0;0;0;0;0;0;3;8,16;868,71
+may-25;General;Baja;2 -  Comercial;Público;Comercial con Demanda Horaria;BTCGCD31;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;5,48;456,19
+may-25;General;Baja;3 - Industrial;No Público;Industrial Artesanal;BTCGSD02;86;20,26;1711,75;787;331,33;28091,22;211;56;4703,68;769;440,38;39518,01;162;87,9;7478,25;182;51,41;4317,29;264;157,69;13526,64;23;9,44;794,7;78;43,44;3701,54;84;33,88;2865,46;207;66,54;5528,76
+may-25;General;Baja;3 - Industrial;No Público;Industrial con Demanda;BTCGCD02;4;2,54;430,25;0;0;0;5;5,2;636,1;478;1397,19;149623,85;13;17,99;2435,68;4;1,11;237,48;45;79,07;9181,09;44;26,76;3355,88;0;0;0;0;0;0;10;6,53;763,8
+may-25;General;Baja;3 - Industrial;No Público;Industrial con Demanda Horaria;BTCGCD30;0;0;0;0;0;0;0;0;0;1;6;500,06;1;11,02;944,68;6;59,87;5922,02;24;326,97;28687,93;1;6,28;637,28;0;0;0;0;0;0;169;830,66;75595,1
+may-25;General;Baja;3 - Industrial;Público;Industrial Artesanal;BTCGSD02;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0,37;30,17;0;0;0;0;0;0
+may-25;General;Baja;3 - Industrial;Público;Industrial con Demanda;BTCGCD02;0;0;0;0;0;0;0;0;0;0;0;0;1;11,64;1105,05;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Baja;3 - Industrial;Público;Industrial con Demanda Horaria;BTCGCD30;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;7,98;826
+may-25;General;Baja;5 - Otros;No Público;Abonados Especiales con Demanda;BTCGSD06;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Baja;5 - Otros;No Público;Abonados Especiales con Demanda Horaria;BTCGSD10;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Baja;5 - Otros;No Público;Asistencia Social;BTCGSD03;0;0;0;22;9,97;548,79;39;15,27;863,34;347;250,23;23569,53;42;17,27;941,02;24;9,18;505,45;187;70,14;3865,67;1;0,38;17,19;12;1,99;101,71;5;2,43;135,13;54;12,31;683,3
+may-25;General;Baja;5 - Otros;No Público;Asistencia Social con Demanda;BTCGCD03;0;0;0;0;0;0;0;0;0;68;193,53;15053,88;3;9,37;873,22;1;24,9;1798,2;2;2,14;178,3;1;0,7;67,26;0;0;0;0;0;0;3;1,79;169,73
+may-25;General;Baja;5 - Otros;No Público;Asistencia Social con Demanda Horaria;NDCGCD01;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;10,09;813,66
+may-25;General;Baja;5 - Otros;No Público;Autoconsumo con Demana Horaria;BTCGCD37;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Baja;5 - Otros;No Público;Autoconsumo con Demanda;BTCGCD04;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Baja;5 - Otros;No Público;Beneficio Público;BTCGSD04;0;0;0;2;0,26;12,14;52;13,02;702,09;1;1,75;173,08;14;7,87;449,96;22;11,42;679,61;26;8,41;430,95;6;3,07;175,67;16;6,96;390,99;58;10,11;560,78;59;16,72;923,96
+may-25;General;Baja;5 - Otros;No Público;Beneficio Público con Demanda;BTCGCD05;0;0;0;0;0;0;0;0;0;1;8,2;565,39;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0,23;51,96
+may-25;General;Baja;5 - Otros;No Público;Beneficio Público con Demanda Horaria;BTCGCD20;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;7;11,67;1011,71
+may-25;General;Baja;5 - Otros;No Público;Bombeo de Agua;BTCGSD13;13;4,21;357,65;57;13,46;1091,36;69;29,5;2407;22;9,56;795,11;400;176,68;14640,06;96;44,9;3650,74;340;127,37;10612,45;57;20,13;1665,72;29;14,86;1214;134;130,77;10737,76;1;2,3;188,6
+may-25;General;Baja;5 - Otros;No Público;Bombeo de Agua Comunidades Campesinas;BTCGCD21;0;0;0;21;36,53;1475,7;14;12,05;492,55;2;1,71;69,88;327;174,22;7203,71;41;28,89;1184,29;934;297,25;12543,78;10;12,28;498,04;11;17,46;706,72;40;43,46;1767,2;111;74,52;3058,58
+may-25;General;Baja;5 - Otros;No Público;Bombeo de Agua con Demanda;BTCGCD06;0;0;0;0;0;0;1;0,66;75,27;37;108,14;10381,05;87;129,84;14154,48;3;2,75;395,53;27;139,14;12641,37;11;42,73;3991,7;1;4,71;397,09;1;7,37;600,33;19;12,47;1380,15
+may-25;General;Baja;5 - Otros;No Público;Bombeo de Agua con Demanda Horaria;BTCGCD34;0;0;0;1;71,74;3910,47;0;0;0;5;17,78;1575,29;0;0;0;9;4,67;2059,8;2;29,16;2310,46;0;0;0;0;0;0;0;0;0;4;7,45;696,6
+may-25;General;Baja;5 - Otros;No Público;Culto Religioso;BTCGSD09;314;25,89;1514,62;545;120,22;6659,77;459;99,82;5268,83;466;261,7;23882,95;928;279,19;15199,52;444;126,35;6891,41;377;137,76;7445,66;438;111,63;5944,13;190;61,75;3284,57;738;152,47;8213,84;408;53,06;2807,71
+may-25;General;Baja;5 - Otros;No Público;Culto Religioso con Demanda;BTCGCD32;1;1,23;106,98;0;0;0;0;0;0;62;101,88;9631,63;3;5,47;601,29;3;4,05;391,77;0;0;0;15;22,28;2565,29;1;0,29;45,86;1;1,22;128,71;0;0;0
+may-25;General;Baja;5 - Otros;No Público;Escenarios Deportivos;BTCGSD12;10;0,7;71,76;32;7,41;683,95;0;0;0;4;4,78;468,16;4;2,65;254,48;12;4,5;414,79;12;1,95;187,17;3;2,62;240,71;7;0,91;84,68;18;6,68;614,91;8;1,32;122,49
+may-25;General;Baja;5 - Otros;No Público;Escenarios Deportivos con Demanda;BTCGCD08;1;2,18;244,07;0;0;0;0;0;0;9;31,19;3264,39;0;0;0;2;0,8;127,5;2;5,78;623,44;1;0,02;28,23;0;0;0;0;0;0;0;0;0
+may-25;General;Baja;5 - Otros;No Público;Escenarios Deportivos con Demanda Horaria;BTCGCD36;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Baja;5 - Otros;No Público;Ocasional;BTCGCD12;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Baja;5 - Otros;No Público;Otros;BTCGSD08;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Baja;5 - Otros;No Público;Otros con Demanda;BTCGCD09;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Baja;5 - Otros;No Público;Otros con Demanda Horaria;BTCGCD38;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Baja;5 - Otros;No Público;Servicio Comunitario;BTCGSD11;0;0;0;53;28,07;2585,67;49;34,87;3177,35;735;232,5;20994,53;932;568,42;52513,94;1;0,02;2,72;65;38,77;3540,26;3;2,31;209,63;292;514,21;47591,29;136;36,39;3384,19;43;4,79;469,08
+may-25;General;Baja;5 - Otros;No Público;Servicio Comunitario con Demanda;BTCGCD11;0;0;0;0;0;0;2;2,13;224,67;294;564,63;57246,65;166;633,36;65024,89;1;6,01;570,25;22;62,98;6220,04;0;0;0;4;14,26;1638,61;0;0;0;0;0;0
+may-25;General;Baja;5 - Otros;No Público;Servicio Comunitario con Demanda Horaria;BTCGCD39;0;0;0;0;0;0;0;0;0;4;173,54;14981,95;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;43,04;3865,68
+may-25;General;Baja;5 - Otros;No Público;Vehículos Eléctricos con Demanda Horaria;BTCGCD41;1;1,11;79,49;1;0,51;61,15;0;0;0;84;48,46;4403,14;73;16,53;2520,09;1;0,44;41,8;15;3,27;526,4;1;1;72,98;0;0;0;2;0,53;80,81;0;0;0
+may-25;General;Baja;5 - Otros;Público;Abonados Especiales con Demanda;BTCGSD06;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;1,65;0;0;0;0;0;0;;;;0;0;0
+may-25;General;Baja;5 - Otros;Público;Abonados Especiales con Demanda Horaria;BTCGSD10;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;;;0;0;0
+may-25;General;Baja;5 - Otros;Público;Asistencia Social;BTCGSD03;77;32,84;1688,8;164;138,96;7982,07;115;75,35;4254,9;71;81,67;7926,34;117;145,02;8461,45;71;57,57;3288,51;324;258,95;14970,02;59;40,22;2270,79;41;43,51;2527,67;127;133,86;7711,18;127;55,94;3209,95
+may-25;General;Baja;5 - Otros;Público;Asistencia Social con Demanda;BTCGCD03;2;2,74;251,66;0;0;0;2;3,22;279,74;43;145,66;11089,08;4;10,49;856,03;5;6,09;542,32;4;19,38;1521,09;10;32,16;2627,52;0;0;0;0;0;0;3;2,36;190,23
+may-25;General;Baja;5 - Otros;Público;Asistencia Social con Demanda Horaria;NDCGCD01;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;51;189,57;14225,21
+may-25;General;Baja;5 - Otros;Público;Autoconsumo con Demana Horaria;BTCGCD37;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Baja;5 - Otros;Público;Autoconsumo con Demanda;BTCGCD04;0;0;0;0;0;0;0;0;0;0;0;0;1;2,4;277,71;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Baja;5 - Otros;Público;Beneficio Público;BTCGSD04;519;57,52;3391,13;857;239,49;13154,36;833;145,81;8222,83;438;371,91;35269,86;850;226,39;12821,13;347;83,71;4759,66;785;245,49;13851,23;311;106,06;5963,57;184;67,45;3747,83;999;209,33;11535,24;760;155,53;8639,3
+may-25;General;Baja;5 - Otros;Público;Beneficio Público con Demanda;BTCGCD05;2;5,49;423,98;1;0,14;17,87;5;6,86;699,39;57;117,25;9260,59;2;3,96;315,55;9;12,11;1099,2;10;16,55;1455,34;18;53,84;4577,33;1;1,7;135,73;0;0;0;8;3,7;508,04
+may-25;General;Baja;5 - Otros;Público;Beneficio Público con Demanda Horaria;BTCGCD20;0;0;0;1;1,78;165,81;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;36;96,3;7474,29
+may-25;General;Baja;5 - Otros;Público;Bombeo de Agua;BTCGSD13;3;1,57;125,18;0;0;0;15;11,66;951,71;1;1,8;155,1;53;50,85;4172,98;19;4,05;339,72;23;8,4;704,25;74;90,71;7460,3;0;0;0;24;20,05;1647,65;0;0;0
+may-25;General;Baja;5 - Otros;Público;Bombeo de Agua Comunidades Campesinas;BTCGCD21;0;0;0;5;7,37;298,44;2;4,19;168,96;0;0;0;30;23,44;958,47;15;15,37;625,34;21;23,99;974,42;9;18,62;751,22;0;0;0;9;16,16;652,51;66;49,9;2042
+may-25;General;Baja;5 - Otros;Público;Bombeo de Agua con Demanda;BTCGCD06;6;4,25;438,04;0;0;0;2;8,77;806,51;5;51,87;4490,9;8;16,16;1517,41;8;27,14;2736,24;1;1,1;89,25;16;106,15;12770,1;0;0;0;1;0,33;37,76;9;4,02;464,17
+may-25;General;Baja;5 - Otros;Público;Bombeo de Agua con Demanda Horaria;BTCGCD34;0;0;0;0;0;0;0;0;0;4;1,35;142,86;0;0;0;1;0;1,41;0;0;0;0;0;0;0;0;0;0;0;0;17;26,37;3291,84
+may-25;General;Baja;5 - Otros;Público;Bombeo de Agua para Servicio Público de Agua;BTCGSD14;0;0;0;15;13,5;889,33;3;0,98;65,72;42;41,59;2741,07;4;1,53;101,07;10;42,08;2777,03;1;0,17;11,44;0;0;0;15;32,49;2134,54;18;11,65;767,95;0;0;0
+may-25;General;Baja;5 - Otros;Público;Bombeo de Agua para Servicio Público de Agua con Demanda Horaria;BTCGCD40;0;0;0;5;5,65;355,16;0;0;0;16;80,06;5349,96;0;0;0;0;0;0;1;2,27;222,16;0;0;0;0;0;0;0;0;0;80;589,61;39237,82
+may-25;General;Baja;5 - Otros;Público;Culto Religioso;BTCGSD09;1;0,06;3,48;6;2,29;133,86;4;0,11;9,31;0;0;0;3;0,04;5,46;2;0,01;3,03;2;0,9;48,67;3;0,45;19,98;1;0,29;11,66;1;0,35;15,55;8;0,35;23,52
+may-25;General;Baja;5 - Otros;Público;Culto Religioso con Demanda;BTCGCD32;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Baja;5 - Otros;Público;Entidades Oficiales;BTCGSD05;354;104,39;9683,23;999;532,47;49058,55;370;215,92;19949,49;1267;1047,7;99022,25;706;629,45;57845,97;297;225,58;20730,15;559;412,31;37867,7;341;263,5;24310,51;449;700,04;64694,12;683;505,83;46487,95;301;143,05;13165,91
+may-25;General;Baja;5 - Otros;Público;Entidades Oficiales con Demanda;BTCGCD07;12;38;4080,11;1;8,11;772,12;11;31,45;3222,77;316;858,07;85374,4;31;156,14;15915,91;26;82,47;8480,85;61;162,6;17222,8;68;301,32;30675,48;6;20,54;2053,26;3;8,3;792,02;28;26,28;3112,6
+may-25;General;Baja;5 - Otros;Público;Entidades Oficiales con Demanda Horaria;BTCGCD35;0;0;0;0;0;0;0;0;0;2;3,34;361,41;0;0;0;0;0;0;7;76,35;7079,57;0;0;0;0;0;0;0;0;0;218;775,67;79921,48
+may-25;General;Baja;5 - Otros;Público;Escenarios Deportivos;BTCGSD12;0;0;0;19;1,93;188,29;0;0;0;1;1,13;106,13;1;1,03;94,27;11;3,75;341,49;10;3,98;362,04;2;2,26;204,89;7;1,64;153,84;11;1,56;146,39;6;1,5;143,03
+may-25;General;Baja;5 - Otros;Público;Escenarios Deportivos con Demanda;BTCGCD08;0;0;0;0;0;0;4;0,13;80,54;0;0;0;0;0;0;1;0,97;105,08;0;0;0;0;0;0;0;0;0;0;0;0;13;6,01;712,16
+may-25;General;Baja;5 - Otros;Público;Escenarios Deportivos con Demanda Horaria;BTCGCD36;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;10,44;1245,97
+may-25;General;Baja;5 - Otros;Público;Ocasional;BTCGCD12;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Baja;5 - Otros;Público;Otros;BTCGSD08;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Baja;5 - Otros;Público;Otros con Demanda;BTCGCD09;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Baja;5 - Otros;Público;Otros con Demanda Horaria;BTCGCD38;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Baja;5 - Otros;Público;Servicio Comunitario;BTCGSD11;0;0;0;3;0,49;45,12;3;0,39;36,21;19;5,31;486,32;8;1,68;159,57;0;0;0;6;2,12;196,08;0;0;0;0;0;0;1;0;1,41;0;0;0
+may-25;General;Baja;5 - Otros;Público;Servicio Comunitario con Demanda;BTCGCD11;0;0;0;0;0;0;0;0;0;8;13,83;1575,59;2;0,5;171,52;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Baja;5 - Otros;Público;Servicio Comunitario con Demanda Horaria;BTCGCD39;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Baja;5 - Otros;Público;Vehículos Eléctricos con Demanda Horaria;BTCGCD41;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Media;2 -  Comercial;No Público;Comercial con Demanda;MTCGCD01;188;399,34;47054,42;677;855,09;97493,98;459;1635,12;196685,6;1756;30445,35;3186506,65;1571;12371,25;1440860,24;673;3042,15;361773,89;1973;7576,53;892155,56;473;3580,15;413764,26;467;4453,4;504460,02;833;3669,08;433345,62;0;0;0
+may-25;General;Media;2 -  Comercial;No Público;Comercial con Demanda Horaria;MTCGCD02;0;0;0;612;7108,28;731232,71;41;937,87;97403,21;533;22640,31;2180000,85;91;2793,45;290396,49;41;567,34;59418,65;451;10458,87;1081464,65;34;2140,34;217682,45;5;-1465,22;-135593,87;205;5364,63;543702,85;14;351,05;36531,38
+may-25;General;Media;2 -  Comercial;Público;Comercial con Demanda;MTCGCD01;0;0;0;0;0;0;8;17,69;2274,02;5;63,89;6832,05;15;94,68;11948,04;5;10,48;1233,82;22;212,81;23982,22;17;422,66;46983,43;0;0;0;2;12,17;1328,59;0;0;0
+may-25;General;Media;2 -  Comercial;Público;Comercial con Demanda Horaria;MTCGCD02;0;0;0;1;3,78;394,54;0;0;0;0;0;0;1;4;401,9;1;60,97;6044,33;6;183,32;18177,97;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Media;3 - Industrial;No Público;Industrial con Demanda;MTCGCD03;19;37,31;4817,49;165;180,51;21298,71;42;158,85;23200,27;253;10528,23;1034493,81;372;7864,78;909670,18;43;220,44;28102,99;17;123,39;14971,12;51;574,24;66856,44;44;883,7;106150,15;86;319,23;43151,99;0;0;0
+may-25;General;Media;3 - Industrial;No Público;Industrial con Demanda Horaria Diferenciada;MTCGCD32;0;0;0;520;34981,27;3489585,42;36;3875,92;384793,48;499;49018,42;4336653,75;206;22065,92;2183346,15;81;3924,87;396812,64;115;21746,29;2138578,18;51;5650,55;559696,56;27;2059,23;209596,91;113;7806,62;752419,94;43;2392,23;242433,82
+may-25;General;Media;3 - Industrial;Público;Industrial con Demanda;MTCGCD03;0;0;0;0;0;0;1;0,36;196,51;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;252,52;30496,83;0;0;0;0;0;0
+may-25;General;Media;3 - Industrial;Público;Industrial con Demanda Horaria Diferenciada;MTCGCD32;0;0;0;0;0;0;2;118,58;12899,51;0;0;0;0;0;0;1;0;1,41;0;0;0;0;0;0;0;0;0;0;0;0;1;154,63;14382,63
+may-25;General;Media;5 - Otros;No Público;Abonados Especiales con Demanda;MTCGCD05;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1,01;107,16;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Media;5 - Otros;No Público;Abonados Especiales con Demanda Horaria;MTCGCD06;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Media;5 - Otros;No Público;Asistencia Social con Demanda;MTCGCD07;0;0;0;1;8,86;644,74;8;29,3;2542,24;102;930,62;71683,07;10;71,08;5918,68;7;50,01;3841,37;10;52,41;4119,35;0;0;0;2;4,14;405,35;0;0;0;0;0;0
+may-25;General;Media;5 - Otros;No Público;Asistencia Social con Demanda Horaria;MTCGCD08;0;0;0;4;98,32;6783,78;1;17,51;1189,39;35;4400,57;270985,46;0;0;0;1;27,35;1847,61;7;746,59;50497,1;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Media;5 - Otros;No Público;Autoconsumo con Demanda;MTCGCD37;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Media;5 - Otros;No Público;Autoconsumo con Demanda Horaria;MTCGCD36;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Media;5 - Otros;No Público;Beneficio Público con Demanda;MTCGCD09;0;0;0;0;0;0;5;6,84;626,05;3;11,49;834,19;1;6,43;626,58;2;16,68;1303,27;4;11,87;1001,39;1;8,06;918,04;3;18,08;1460,19;0;0;0;0;0;0
+may-25;General;Media;5 - Otros;No Público;Beneficio Público con Demanda Horaria;MTCGCD10;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Media;5 - Otros;No Público;Bombeo de Agua Comunidades Campesinas;MTCGCD30;1;0,72;29,63;0;0;0;0;0;0;2;3,31;133,63;31;230,97;9261,1;2;2,65;107,28;1;2,46;99,27;0;0;0;19;61,49;2472,82;0;0;0;0;0;0
+may-25;General;Media;5 - Otros;No Público;Bombeo de Agua con Demanda;MTCGCD11;0;0;0;52;49,01;4356,37;18;57,66;5937,4;90;2055,17;149311,48;358;2050,53;182783,8;61;115,91;13594,71;184;915,76;78881,46;57;2254,37;176498,56;220;4324,47;330132,02;62;472,86;37217,96;0;0;0
+may-25;General;Media;5 - Otros;No Público;Bombeo de Agua con Demanda Horaria;MTCGCD12;0;0;0;340;7926,09;574730,66;4;116,09;9098,66;54;3814,25;228729,3;16;127,24;14964,3;14;814,61;58524,69;28;668,69;48889,25;51;8463;539215,23;22;2906,26;193673,66;31;364,38;25383,86;0;0;0
+may-25;General;Media;5 - Otros;No Público;Culto Religioso con Demanda;MTCGCD33;2;1,29;117,1;32;70,24;7159,4;4;5,62;580,02;44;187,74;17281,31;49;258,13;23310,38;27;51,39;5536,93;42;64,3;6770,44;14;39,6;4438,73;4;7,09;850,56;16;31,4;3029,2;0;0;0
+may-25;General;Media;5 - Otros;No Público;Escenarios Deportivos con Demanda;MTCGCD15;2;0,38;80,99;8;7,51;740,4;0;0;0;31;277,64;24447,08;7;36,36;3594;8;24,02;2450,93;7;10,86;1419,06;2;2,42;280,02;0;0;0;1;3,81;371,84;0;0;0
+may-25;General;Media;5 - Otros;No Público;Escenarios Deportivos con Demanda Horaria;MTCGCD16;0;0;0;4;18;1991,63;0;0;0;4;89,82;8259,32;0;0;0;0;0;0;1;3,78;1472,26;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Media;5 - Otros;No Público;Estación de Carga Rápida con Demanda Horaria Diferenciada;MTCGCD25;0;0;0;0;0;0;0;0;0;6;267,44;16925,61;2;93,28;6163,15;0;0;0;1;0;43,53;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Media;5 - Otros;No Público;Otros con Demanda;MTCGCD19;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Media;5 - Otros;No Público;Servicio Comunitario con Demanda;MTCGCD35;0;0;0;9;6,72;783,41;31;61,91;6208,87;144;2090,64;160256,46;178;975,05;91379,49;1;1,72;158,6;62;185,55;17276,35;0;0;0;12;59,86;5682,56;1;2,08;180,14;0;0;0
+may-25;General;Media;5 - Otros;No Público;Servicio Comunitario con Demanda Horaria;MTCGCD34;0;0;0;0;0;0;0;0;0;41;1399,76;98182,57;0;0;0;0;0;0;4;19,67;1609,07;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Media;5 - Otros;Público;Abonados Especiales con Demanda;MTCGCD05;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Media;5 - Otros;Público;Abonados Especiales con Demanda Horaria;MTCGCD06;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Media;5 - Otros;Público;Asistencia Social con Demanda;MTCGCD07;14;102,65;7734,12;18;20;1670,98;17;122,76;9446,22;36;501,18;35679,98;24;479,9;35577,4;25;299,65;22611,61;60;183,32;14868,96;12;231,48;17118,24;10;379,96;27214,8;16;115,26;8949,17;0;0;0
+may-25;General;Media;5 - Otros;Público;Asistencia Social con Demanda Horaria;MTCGCD08;0;0;0;40;1429,63;97345,93;10;703,7;46348,34;21;5891,4;357307,96;4;652,99;43411,07;2;487,21;33069,84;34;2859,14;189869,15;1;376,99;24808,58;0;0;0;10;738,57;49656,08;7;224,78;15383,24
+may-25;General;Media;5 - Otros;Público;Autoconsumo con Demanda;MTCGCD37;0;0;0;0;0;0;0;0;0;0;0;0;1;0;4,86;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Media;5 - Otros;Público;Autoconsumo con Demanda Horaria;MTCGCD36;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Media;5 - Otros;Público;Beneficio Público con Demanda;MTCGCD09;35;112,87;8689,18;33;32,71;3088,39;58;293,85;25129,13;63;1082,51;80017,76;44;323,15;28491,19;35;121,92;10217,61;214;329,8;30880,38;15;88,89;7407,43;15;66,55;5306,84;34;171,1;13395,77;0;0;0
+may-25;General;Media;5 - Otros;Público;Beneficio Público con Demanda Horaria;MTCGCD10;0;0;0;30;524,78;38159,77;3;115,49;7610,44;21;1871,42;119953,94;4;29,68;2071,29;2;33;2458,99;20;971,03;71551,96;0;0;0;0;0;0;3;70,33;5135,87;10;85,94;6164,96
+may-25;General;Media;5 - Otros;Público;Bombeo de Agua Comunidades Campesinas;MTCGCD30;0;0;0;0;0;0;0;0;0;0;0;0;3;3,99;186,97;0;0;0;0;0;0;0;0;0;2;18,66;747,96;0;0;0;0;0;0
+may-25;General;Media;5 - Otros;Público;Bombeo de Agua con Demanda;MTCGCD11;0;0;0;2;0,21;67,7;30;160,38;14235,48;2;19,69;1260,67;146;951,49;78752,39;88;1635,3;125607,21;64;69,28;7691,18;49;1309,76;95865;8;90,96;6873,89;31;268,49;21226,51;0;0;0
+may-25;General;Media;5 - Otros;Público;Bombeo de Agua con Demanda Horaria;MTCGCD12;0;0;0;0;0;0;4;176,84;15242,72;5;1083,6;63015,67;5;28,77;6356,68;1;51,57;3342,45;64;352,05;35565,7;1;27,83;1912,92;2;730,7;47326,63;0;0;0;3;6,51;1365,65
+may-25;General;Media;5 - Otros;Público;Bombeo de Agua para Servicio Público de Agua con Demanda Horaria;MTCGCD39;0;0;0;45;1121,95;53879,66;9;233,03;10984,45;29;1317,87;64877,77;37;1193,07;63994,93;6;51,88;2968,45;61;2134,96;114080,77;0;0;0;0;0;0;35;457,25;22499,99;5;432,77;32442,79
+may-25;General;Media;5 - Otros;Público;Entidades Oficiales con Demanda;MTCGCD13;98;183,49;17073,62;196;296,37;26930,21;174;1320,52;126552,86;211;3526,33;270985,08;292;1885,25;175773,54;134;706,32;65897,68;511;1797,47;166544,37;37;535,6;47035,46;140;1579,29;149437,12;130;710,19;65979,66;0;0;0
+may-25;General;Media;5 - Otros;Público;Entidades Oficiales con Demanda Horaria;MTCGCD14;0;0;0;162;1954,86;160096,49;13;545,33;43501,38;124;6906,57;472049,14;7;153,9;12355,21;6;143,29;11221,83;118;2548,2;204753,98;1;158,26;12110,78;2;252,2;19872,32;36;1903,47;144438,66;31;1212,51;98258,56
+may-25;General;Media;5 - Otros;Público;Escenarios Deportivos con Demanda;MTCGCD15;0;0;0;5;0,24;81,45;0;0;0;1;1,87;144,98;0;0;0;6;13,26;1607,06;4;1,98;299,04;1;2,07;224,88;5;2,04;851,81;2;7,6;1918,18;0;0;0
+may-25;General;Media;5 - Otros;Público;Escenarios Deportivos con Demanda Horaria;MTCGCD16;0;0;0;0;0;0;0;0;0;1;22,75;1738,41;0;0;0;0;0;0;7;54,4;5828,9;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Media;5 - Otros;Público;Estación de Carga Rápida con Demanda Horaria Diferenciada;MTCGCD25;0;0;0;0;0;0;0;0;0;4;55,46;3518,23;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Media;5 - Otros;Público;Estacionales y Ocasionales;MTCGCD31;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Media;5 - Otros;Público;Otros con Demanda;MTCGCD19;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Media;5 - Otros;Público;Servicio Comunitario con Demanda;MTCGCD35;0;0;0;0;0;0;0;0;0;6;38,27;2934,24;4;3,39;309,51;0;0;0;1;0,86;125,27;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;General;Media;5 - Otros;Público;Servicio Comunitario con Demanda Horaria;MTCGCD34;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;Residencial;0;1 - Residencial;No Público;Residencial / Refacturaciones y Reliquidaciones;REFACTRE;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;Residencial;0;1 - Residencial;Público;Residencial / Refacturaciones y Reliquidaciones;REFACTRE;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+may-25;Residencial;Baja;1 - Residencial;No Público;Residencial;BTCRSD01;64767;4524,83;516230,25;231892;38937,37;4141881,07;99054;14155,06;955759,2;545946;155727,14;15837553,55;294768;77742,81;8734785,76;120199;20382,34;2186687,49;297732;59900,81;6412790,24;129352;22273,41;2383256,31;73580;14186,59;1510469,53;225346;29709,45;3180329,34;89341;12487,65;1334803,04
+may-25;Residencial;Baja;1 - Residencial;No Público;Residencial para el Programa PEC;BTCRSD03;3161;398,77;31081,24;24946;5166,97;434303,88;15835;1976,24;-422037,84;88790;25337,87;2104144,3;51854;12265,04;1052006,38;20802;4194,13;354774,35;35766;9039,49;782550,57;21194;4576,87;384283,32;13383;2927,52;248771,13;20494;3413,98;284274,69;9636;1905,68;163154,5
+may-25;Residencial;Baja;1 - Residencial;No Público;Residencial Temporal;BTCRSD02;0;0;0;0;0;0;5740;668,06;93985,88;1908;204,03;28923,61;0;0;0;1;0,79;103,44;292;31,25;4429,06;0;0;0;11029;1803,95;247367,56;0;0;0;2;0;2,95
+may-25;Residencial;Baja;1 - Residencial;Público;Residencial;BTCRSD01;0;0;0;528;75,32;8890,11;423;142,79;16242,81;175;57,11;6695,53;212;32,22;3557,81;79;24,72;2688,87;446;117,02;13435,19;103;25,93;2734,41;114;21,45;2360,86;100;16,82;1789,81;1;-0,73;-67,62
+may-25;Residencial;Baja;1 - Residencial;Público;Residencial Temporal;BTCRSD02;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;10;1,04;148,13;0;0;0;0;0;0

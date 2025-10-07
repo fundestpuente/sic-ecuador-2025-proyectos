@@ -1,0 +1,119 @@
+BALANCE NACIONAL DE ENERGÍA ELÉCTRICA A FEBRERO 2025;;;
+;;;
+1. Potencia Nominal en Generación - Total;;MW;%
+ Renovable ; Hidráulica ;5.416,57;58,53%
+; Eólica ;71,13;0,77%
+; Fotovoltaica ;29,13;0,31%
+; Biomasa ;155,30;1,68%
+; Biogas ;11,12;0,12%
+ Total Energía Renovable ;;5.683,25;61,41%
+ No Renovable ; Térmica MCI ;2.177,71;23,53%
+; Térmica Turbogas ;905,35;9,78%
+; Térmica Turbovapor ;488,53;5,28%
+ Total Energía No Renovable ;;3.571,58;38,59%
+Total Potencia Nominal ;;9.254,83;100,00%
+;;;
+Interconexiones;;MW ;%
+ Interconexiones ; Colombia ;540;83,08%
+; Perú;110;16,92%
+ Total Interconexiones ;;650;100,00%
+;;;
+2. Potencia Nominal en Generación - solo S.N.I.;;MW;%
+ Renovable ; Hidráulica ;5.413,37;69,09%
+; Eólica ;66,48;0,85%
+; Fotovoltaica ;24,46;0,31%
+; Biomasa ;155,30;1,98%
+; Biogas ;11,12;0,14%
+ Total Energía Renovable ;;5.670,73;72,37%
+ No Renovable ; Térmica MCI ;921,23;11,76%
+; Térmica Turbogas ;797,80;10,18%
+; Térmica Turbovapor ;446,00;5,69%
+ Total Energía No Renovable ;;2.165,03;27,63%
+Total Potencia Efectiva ;;7.835,76;100,00%
+;;;
+Interconexiones;;MW ;%
+ Interconexiones ; Colombia ;540;83,08%
+; Perú;110;16,92%
+ Total Interconexiones ;;650;100,00%
+;;;
+3. Producción Total de Energía e Importaciones;;GWh;%
+ Renovable ; Hidráulica ;22.304,76;62,34%
+; Eólica ;214,31;0,60%
+; Fotovoltaica ;38,18;0,11%
+; Biomasa ;457,52;1,28%
+; Biogas ;37,59;0,11%
+ Total Energía Renovable ;;23.052,36;64,43%
+ No Renovable ; Térmica MCI ;7.274,88;20,33%
+; Térmica Turbogas ;1.827,54;5,11%
+; Térmica Turbovapor ;2.133,58;5,96%
+ Total Energía No Renovable ;;11.236,01;31,41%
+ Total Producción Nacional ;;34.288,37;95,84%
+ Interconexión ; Colombia ;1.488,08;4,16%
+; Perú;0,00;0,00%
+; Importación ;1.488,08;4,16%
+Total Producción Nacional + Importación ;;35.776,45;100,00%
+;;;
+3.1 Producción Total de Energía e Importaciones - solo S.N.I. ;; GWh ;%
+ Renovable ; Hidráulica ;22.298,34;70,97%
+; Eólica ;212,56;0,68%
+; Fotovoltaica ;32,62;0,10%
+; Biomasa ;457,52;1,46%
+; Biogas ;37,59;0,12%
+ Total Energía Renovable S.N.I. ;;23.038,62;73,33%
+ No Renovable ; Térmica MCI ;3.309,87;10,53%
+; Térmica Turbogas ;1.454,17;4,63%
+; Térmica Turbovapor ;2.128,10;6,77%
+ Total Energía No Renovable S.N.I. ;;6.892,15;21,94%
+ Total Producción Nacional S.N.I. ;;29.930,77;95,26%
+ Interconexión ; Colombia ;1.488,08;4,74%
+; Perú;0,00;0,00%
+; Importación ;1.488,08;4,74%
+Total Producción Nacional + Importación S.N.I. ;;31.418,85;100,00%
+;;;
+4. Energía Entregada para Servicio Público ;; GWh ;%
+ Renovable ; Hidráulica ;20.700,47;70,71%
+; Eólica ;211,84;0,72%
+; Fotovoltaica ;37,00;0,13%
+; Biomasa ;212,28;0,73%
+; Biogas ;37,36;0,13%
+ Total Energía Renovable ;;21.198,96;72,41%
+ No Renovable ; Térmica MCI ;3.167,88;10,82%
+; Térmica Turbogas ;1.434,87;4,90%
+; Térmica Turbovapor ;1.986,28;6,78%
+ Total Energía No Renovable ;;6.589,04;22,51%
+ Total Producción Nacional ;;27.788,00;94,92%
+ Interconexión ; Colombia ;1.488,08;5,08%
+; Perú;0,00;0,00%
+; Importación ;1.488,08;5,08%
+Total Energía Entregada para Servicio Público ;;29.276,07;100,00%
+;;;
+Energía Entregada para Servicio Eléctrico ;; GWh ;%
+ Servicio Público ;;29.276,07;94,40%
+ Demanda No Regulada ;;1.736,28;5,60%
+Total Energía Entregada para Servicio Eléctrico ;;31.012,35;100,00%
+;;;
+5. Energía Disponible para Servicio Eléctrico ;; GWh ;%
+ Pérdidas en Transmisión;;1.119,01;3,61%
+ Total Energía Disponible para Servicio Eléctrico ;;29.893,35;96,39%
+ Interconexión ; Colombia ;70,90;100,00%
+; Perú;0,00;0,00%
+; Exportación ;70,90;100,00%
+ Total Energía Disponible en los Sistemas de Distribución ;;29.822,44;100,00%
+ Consumo Total de Energía Eléctrica;;25.127,11;84,26%
+ Pérdidas en Distribución ; Técnicas ;1.835,09;6,15%
+; No Técnicas ;2.860,24;9,59%
+; Pérdidas Totales ;4.695,33;15,74%
+;;;
+ 6. Energía Facturada por Servicio Eléctrico ;; GWh ;%
+ Demanda Regulada; Residencial ;8.307,60;33,31%
+; Industrial ;5.992,40;24,03%
+; Comercial ;4.260,93;17,09%
+; Otros ;3.064,81;12,29%
+; SAPG ;1.573,20;6,31%
+; Total Demanda Regulada ;23.198,94;93,03%
+ Demanda No Regulada y Otras Ventas ;;1.737,89;6,97%
+ Total Energía Facturada por Servicio Eléctrico ;;24.936,83;100,00%
+;;;
+ Valores Facturados y Recaudados ;; MUSD ;%
+ Facturación por Servicio Eléctrico (MUSD) ;;2.224,10;
+ Recaudación por Servicio Eléctrico (MUSD) ;;2.020,93;90,87%
