@@ -8,7 +8,7 @@ basado en los valores de PM2.5, conforme a las categorías internacionales.
 import pandas as pd
 import numpy as np
 
-# Contaminantes comunes en datasets de calidad del aire
+# Contaminantes comunes en dataset de calidad del aire
 CONTAMINANTES = ['co', 'no', 'no2', 'o3', 'so2', 'pm2_5', 'pm10', 'nh3']
 
 def quality_report(df_idx: pd.DataFrame) -> dict:
@@ -196,7 +196,16 @@ class EstacionCalidadAire:
 
     def top_n_dias_mas_contaminados(self, columna: str, n=5) -> pd.DataFrame:
         """Devuelve los N días con mayor concentración de un contaminante."""
-        diario = self.df.groupby("date")[columna].mean().reset_index()
-        return diario.sort_values(by=columna, ascending=False).head(n)
+        # Agrupar por año, mes y día (es decir, por día calendario)
+        grouped = self.df.groupby(['year', 'month', 'day'])[columna].mean().reset_index()
+    
+        # Reconstruir una columna de fecha para facilitar visualización
+        grouped['date'] = pd.to_datetime(grouped[['year', 'month', 'day']])
+    
+        # Ordenar y tomar los top n (mayor a menor)
+        top_n = grouped.sort_values(by=columna, ascending=False).head(n)
+    
+        # Devolver solo lo relevante
+        return top_n[['date', columna]].reset_index(drop=True)
 
 
