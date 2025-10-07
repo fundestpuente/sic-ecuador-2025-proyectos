@@ -1,0 +1,27 @@
+{
+  "fecha_carga": "2025-10-06T22:42:47.936596",
+  "cortes": {
+    "total_registros": 597,
+    "fecha_inicio": "2024-03-10",
+    "fecha_fin": "2024-10-27",
+    "regiones_afectadas": 11,
+    "cantones_afectados": 91,
+    "duracion_total_horas": 2820.0,
+    "duracion_promedio_horas": 4.723618090452261
+  },
+  "balance": {
+    "total_registros": 21,
+    "archivos_procesados": 21,
+    "anios_cubiertos": 3,
+    "meses_cubiertos": 12
+  },
+  "facturacion": {
+    "total_registros": 249474,
+    "archivos_procesados": 19,
+    "categorias": 4,
+    "tarifas": 175,
+    "consumo_total_MWh": 3252392.41976,
+    "facturacion_total_USD": 544735476.870006,
+    "clientes_totales": 25094951.979
+  }
+}
