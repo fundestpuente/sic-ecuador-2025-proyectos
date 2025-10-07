@@ -110,8 +110,8 @@ class DataLoader:
         except Exception:
             # Intentar con dayfirst=True para formatos mixtos
             try:
-                df_clean['fecha_inicio'] = pd.to_datetime(df_clean['fecha_inicio'], dayfirst=True, errors='coerce')
-                df_clean['fecha_fin'] = pd.to_datetime(df_clean['fecha_fin'], dayfirst=True, errors='coerce')
+                df_clean['fecha_inicio'] = pd.to_datetime(df_clean['fecha_inicio'], dayfirst=False, errors='coerce')
+                df_clean['fecha_fin'] = pd.to_datetime(df_clean['fecha_fin'], dayfirst=False, errors='coerce')
             except Exception:
                 # Último recurso: inferir formato
                 df_clean['fecha_inicio'] = pd.to_datetime(df_clean['fecha_inicio'], infer_datetime_format=True, errors='coerce')

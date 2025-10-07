@@ -318,6 +318,8 @@ if __name__ == "__main__":
     print("\n=== EXPORTAR A JSON ===")
     balance_json = balance.to_json()
     print("Balance energético exportado a JSON")
+    print(balance_json)
     
     consumo_json = consumo_guayas.to_json()
     print("Consumo regional exportado a JSON")
+    print(consumo_json)
